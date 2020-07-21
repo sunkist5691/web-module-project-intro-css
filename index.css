@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, img, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* RESET ENDS */
+
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* header */
+header h1 {
+  display: inline-block;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 3.5rem;
+}
+
+header h4, header p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+/* footer */
+footer nav {
+  background-color: #F9E7DC;
+}
+
+
+/* images */
+header img {
+  margin-left: 5rem;
+  border-radius: 50%;
+  height: 24%;
+  width: 24%;
+}
+
+section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 8rem;
+  padding: 2rem;
+}
+
+footer img {
+  margin-top: 7rem;
+  width: 100%;
+}
+
+/* fire and parking letter */
+h6 {
+  font-size: .5rem;
+  text-align: center;
+  margin: 0 50em;
+  line-height: 1.2rem;
+}
+
+/* navigation bar */
+nav div {
+  display: inline-block;
+  text-align: center;
+  margin: 2rem 2rem 3.5rem 2rem;
+  padding: 0.8rem 2rem;
+  font-size: 1.4rem;
+  border-radius: 15rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav1 {
+  background-color: #FF764E;
+}
+
+.nav1:hover {
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+
+.nav2 {
+  background-color: #5ED3EB;
+}
+
+.nav2:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+.nav3 {
+  background-color: #FFCD69;
+}
+
+.nav3:hover {
+  background-color: violet;
+  cursor: pointer;
+}
+
+/* main text */
+section p{
+  margin: 0 3rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: white;
+  background-color: #DDB9A3;
+}
+
